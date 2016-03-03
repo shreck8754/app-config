@@ -11,7 +11,10 @@ logging:
     io:
       pivotal: DEBUG
 
-spring: 
+spring:
   cloud:
     services:
       registrationMethod: direct
+
+ribbon:
+  IsSecure: false
